@@ -1,0 +1,7 @@
+gemini-env
+.env
+.idea
+__pycache__
+sample.md
+test.py
+sample.png
