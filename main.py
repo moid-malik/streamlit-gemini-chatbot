@@ -30,7 +30,7 @@ with st.sidebar:
 
 # Chatbot Page
 if selected == "Chatbot":
-    model = load_gemini_pro("gemini-pro")
+    model = load_gemini_pro("gemini-1.5-pro")
     st.session_state.setdefault("chat_session", model.start_chat(history=[]))
 
     page_header("🤖 Gemini Chatbot", color="#fff")
